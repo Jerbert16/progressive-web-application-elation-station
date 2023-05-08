@@ -11,6 +11,7 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
+      editor: "./src/js/editor.js",
       install: './src/js/install.js'
     },
     output: {
@@ -20,7 +21,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Editor'
+        title: 'PWA Editor'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
