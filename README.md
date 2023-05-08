@@ -51,4 +51,4 @@ THEN I should have proper build scripts for a webpack application
 ```
 ## Deployed Application 
 
-(Heroku Link)
+[See the deployed application here!](https://salty-journey-37806.herokuapp.com/)
